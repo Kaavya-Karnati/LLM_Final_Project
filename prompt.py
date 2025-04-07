@@ -18,6 +18,7 @@
 
 import openai
 
+client = openai.OpenAI(api_key="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")  # new client object
 
 
 def gpt_call(prompt, model="gpt-4", temperature=0.3, max_tokens=256):
